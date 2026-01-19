@@ -23,3 +23,28 @@ The target variable represents:
 - **Benign (non-cancerous)**
 - **Malignant (cancerous)**
 
+Data Loading & Exploration:
+- Loaded the dataset and inspected its structure.
+- Checked for missing values and data consistency.
+- Analyzed feature distributions and class balance.
+
+Data Preprocessing:
+- Converted categorical labels into numerical format.
+- Selected relevant features for model training.
+- Split the dataset into **training and testing sets** to evaluate model performance objectively.
+- Applied feature scaling where required to improve model accuracy.
+
+Model Building:
+- Trained a machine learning **classification algorithm** to learn patterns from the data.
+- The model learns relationships between diagnostic features and tumor classification.
+
+Model Evaluation:
+- Evaluated the model using metrics such as:
+  - Accuracy score
+  - Confusion matrix
+  - Classification report
+- Verified how well the model distinguishes between benign and malignant cases.
+
+Prediction:
+- Used the trained model to predict breast cancer outcomes on unseen test data.
+- Interpreted prediction results to validate model reliability.
